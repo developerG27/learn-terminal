@@ -3,6 +3,9 @@ La linea di comando è lo strumento più potente che abbiamo all'interno del nos
 ls - list directory contents
 Lista normale
 
+ls -a
+Lista anche i file nascosti
+
 ls -l 
 Lista verso il basso
 
@@ -69,3 +72,20 @@ mostra le ultime 10 linee del file
 
 echo 'testo'
 stampa in console il parametro
+
+top
+tutti i processi che si stanno eseguendo nel computer, è interattivo
+
+ps -wA
+mostra tutti i processi che si stanno eseguendo e da dove arrivano, non è interattivo
+
+kill -9 [id processo]
+Interrompe un processo
+
+ps -wA | wc -l
+Mostra la quantità di processi che si stanno eseguendo
+
+Si possono eseguire più comandi contemporaneamente inserendo il ;
+ls; echo 'hello'
+si esegue prima ls e poi echo 'hello'
+
