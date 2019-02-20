@@ -85,7 +85,21 @@ Interrompe un processo
 ps -wA | wc -l
 Mostra la quantità di processi che si stanno eseguendo
 
+uptime
+Mostrada quando tempo è acceso il computer, quanti utenti sono loggati, 
+
 Si possono eseguire più comandi contemporaneamente inserendo il ;
 ls; echo 'hello'
 si esegue prima ls e poi echo 'hello'
 
+grep
+cerca all'interno di un documento, incluso i binari
+
+date; [comando]; date;
+misura il tempo di esecuzione di un comando
+
+find [path] -name [nome]
+cerca in nome nel path che gli diciamo
+
+time
+mostra il tempo nel processore
