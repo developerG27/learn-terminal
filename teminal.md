@@ -103,3 +103,15 @@ cerca in nome nel path che gli diciamo
 
 time
 mostra il tempo nel processore
+
+curl [link]
+emula un browser
+
+zip [nome.zip] [file]
+crea un archivio e al suo interno inserisce il file come parametro
+
+unzip [nome.zip]
+Unzippa il file
+
+unzip [nome.zip] -vl
+Non scomprire lo zip ma mostra il suo contenuto
