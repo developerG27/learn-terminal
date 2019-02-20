@@ -59,10 +59,13 @@ more [file]
 ritorna le prime tre linee 
 
 less [file]
-nelle nuove distribuzioni non si usa più more ma less
+nelle nuove distribuzioni non si usa più more ma less, è stato riscritto
 
 cat [file]
 stampa il contenuto del file nella terminale
 
 tail [file]
 mostra le ultime 10 linee del file
+
+echo 'testo'
+stampa in console il parametro
