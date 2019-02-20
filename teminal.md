@@ -105,7 +105,7 @@ time
 mostra il tempo nel processore
 
 curl [link]
-emula un browser
+emula un browser e ritorna tutti i valori del file
 
 zip [nome.zip] [file]
 crea un archivio e al suo interno inserisce il file come parametro
@@ -115,3 +115,18 @@ Unzippa il file
 
 unzip [nome.zip] -vl
 Non scomprire lo zip ma mostra il suo contenuto
+
+pipe
+Ci permette concatenare comandi
+
+Crontab: ci permette automatizzare la terminale
+Per eseguier Crontab il computer deve essere acceso
+
+du - disk usage
+mostr quanti kb sta usando
+
+ln -s [path] [alias] 
+Crea un alias che ritorna il path
+esempio:
+ls -s C:/cartella alias_file
+cd alias_file
