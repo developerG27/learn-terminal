@@ -130,3 +130,30 @@ Crea un alias che ritorna il path
 esempio:
 ls -s C:/cartella alias_file
 cd alias_file
+
+
+whoami - Who am i - Chi sono
+
+
+Tipologie di permesso
+--- : 0
+--x : 1
+-w- : 2
+-wx : 3
+r-- : 4
+r-x : 5
+rw- : 6
+rwx : 7
+r: Lettura
+w: Lettura e scrittura
+x: esecuzione
+
+In binario
+000 => 0
+001 => 1
+010 => 2
+011 => 3
+100 => 4
+101 => 5
+110 => 6
+111 => 7
