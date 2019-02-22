@@ -1,13 +1,11 @@
-la directory principale si trova in:
-~ -------sbagliato
-/ -------sbagliato
+la directory padre si trova in:
+..
 
 L'operatore | serve per:
 concatenare lo standard output di un comando con lo standard input di un altro comando
 
 Il riassunto dei permessi -r-x-w-r-- è equivalente a:
-421   -----------sbagliato
-532   ---------sbagliato
+524
 
 In unix il comando per listare è:
 ls
@@ -22,16 +20,13 @@ per sapere con quale utente sono loggato nel sistema
 whoami
 
 Per dirigere lo standard error dell'archivio error.log devo eseguire
-[processo] | error.log ---------sbagliato
-[processo] error.log > ------ sbagliato
+[proceso] 2> error.log
 
 Se eseguo comando_1 & comando_2:
-quando finisce l'esecuzione del primo, inizia l'esecuzione del secondo  -----------sbagliato
-il comando_2 si esegue solo se non c'è un errore nel comando_1 -------- sbagliato
+il comando_2 si esegue senza importare lo stato del comando 1
 
 Se do un permesso 652 in base binaria, un utente appartenente allo stesso gruppo di utenti puç:
-leggere - scrivere - eseguire  ----sbagliato
-leggere - scrivere --------sbagliato
+leggere - eseguire
 
 
 Lo standard Error e lo standard Output dell'esecuzione del comando:
@@ -47,7 +42,6 @@ Il seguento riassunto di permessi è -rwxr-xr--, possiamo sapere che l'utente ha
 leggere - eseguire - scrivere
 
 se ho un file.txt e ne creo un altro con touch file.txt:
-verifica la integrità del file -----------sbagilato
 modifica l'ora di accesso del file
 
 L'acronimo di CLI è
@@ -60,7 +54,6 @@ quale comando si esegue per terminare processi?
 kill -9
 
 Per cambiare il cursore di un file si usa 
-mv -----------sbagliato
 cd
 
 Il file libro.csv non esiste nel direcotory dove mi trova, un comando touch libro.csv cosa fa?
@@ -76,7 +69,6 @@ Per fare diventare eseguibile uno script bisogna eseguire la seguente linea:
 #!/usr/bin/python
 
 La directory Home ha un shortcut
-/  -------------sbagliato
 ~
 
 Per creare un file si usa il comando
